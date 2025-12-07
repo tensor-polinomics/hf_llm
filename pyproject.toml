@@ -1,0 +1,28 @@
+[project]
+name = "hf-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.12.0",
+    "bitsandbytes>=0.48.2",
+    "datasets>=4.4.1",
+    "evaluate>=0.4.6",
+    "huggingface-hub>=0.36.0",
+    "ipykernel>=7.1.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.7",
+    "peft>=0.18.0",
+    "python-dotenv>=1.2.1",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.3",
+    "seaborn>=0.13.2",
+    "tensorboard>=2.20.0",
+    "torch>=2.9.1",
+    "torchaudio>=2.9.1",
+    "torchvision>=0.24.1",
+    "transformers[sentencepiece]>=4.57.3",
+    "trl>=0.25.1",
+    "wandb>=0.23.1",
+]
