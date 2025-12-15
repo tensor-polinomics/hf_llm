@@ -8,3 +8,9 @@ models/
 outputs/
 *.pt
 *.bin
+
+# Quarto outputs
+_output/
+.quarto/
+*_cache/
+
